@@ -1,0 +1,13 @@
+- name: Deploy Docker Container
+  hosts: dockerservers
+  gather_facts: false
+  remote_user: root
+  tasks:
+    - name: Creating the Container
+      docker_container:
+         name: 66023096-next-container
+         image: 66023096-next:latest
+         ports:
+           - "2368:3000"
+         state: started
+         restart: true
