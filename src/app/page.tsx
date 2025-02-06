@@ -46,7 +46,7 @@ export default function Home() {
       {/* Center Content */}
       <div className="flex justify-center items-center h-[80vh]">
         <div className="bg-glass p-8 rounded-xl backdrop-blur-md bg-white/10 hover:bg-white/20 transition-all">
-          <h2 className="text-4xl font-bold text-white mb-4">Welcome to My Portfolio</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Welcome to My Portfolio 66023096</h2>
           <p className="text-gray-300">Interactive design showcase</p>
         </div>
       </div>
