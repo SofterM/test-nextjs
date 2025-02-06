@@ -4,7 +4,7 @@ export default function Home() {
       {/* Header */}
       <div className="text-center mb-16 pt-8">
         <h1 className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 animate-pulse">
-          Next.js
+          Next.js test
         </h1>
       </div>
 
